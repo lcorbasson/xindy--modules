@@ -15,7 +15,7 @@
 ;; Currently, it works as if it's the same as \see, just with another
 ;; macro.
 (define-crossref-class "seealso")
-(markup-crossref-list :class "see" :open "\seealso{" :close "}{}")
+(markup-crossref-list :class "seealso" :open "\seealso{" :close "}{}")
 
 (define-location-class-order ("roman-page-numbers"
 			      "arabic-page-numbers"
@@ -30,6 +30,9 @@
 ;;======================================================================
 ;;
 ;; $Log$
+;; Revision 1.2  2005/05/09 20:19:15  jschrod
+;;     Typo in seealso crossref class definition.
+;;
 ;; Revision 1.1  2004/05/24 21:53:27  jschrod
 ;;     Standard modules, introduced in "LaTeX Companion Release".
 ;;
