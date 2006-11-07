@@ -5,12 +5,17 @@
 ;;; latin lettergroups
 ;;;
 
-(markup-letter-group :open-head "~n  \textbf{" :close-head "}")
+(markup-letter-group :open-head "~n  \lettergroup{" :close-head "}")
 
 
 ;;======================================================================
 ;;
 ;; $Log$
+;; Revision 1.2  2006/11/07 01:16:50  jschrod
+;;     Prevent page break after letter group heading.
+;; Introduce a \lettergroup tag for that, which can be redefined
+;; by the user in an own theindex environment. (Ticket 1255990)
+;;
 ;; Revision 1.1  2004/05/24 21:53:27  jschrod
 ;;     Standard modules, introduced in "LaTeX Companion Release".
 ;;

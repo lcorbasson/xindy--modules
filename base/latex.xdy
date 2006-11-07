@@ -39,7 +39,7 @@
 ;;; Output Markup
 ;;;
 
-(markup-index :open  "\begin{theindex}~n"
+(markup-index :open  "\begin{theindex}~n  \providecommand*\lettergroup[1]{\par\textbf{#1}\par\nopagebreak}~n"
 	      :close "~n~n\end{theindex}~n"
 	      :tree)
 
@@ -59,6 +59,11 @@
 ;;======================================================================
 ;;
 ;; $Log$
+;; Revision 1.3  2006/11/07 01:16:50  jschrod
+;;     Prevent page break after letter group heading.
+;; Introduce a \lettergroup tag for that, which can be redefined
+;; by the user in an own theindex environment. (Ticket 1255990)
+;;
 ;; Revision 1.2  2005/05/09 20:21:11  jschrod
 ;;     Support handling of some common macros for logos; ignore all other
 ;; TeX commands.
