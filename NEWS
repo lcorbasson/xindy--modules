@@ -1,12 +1,15 @@
 # $Id$
 #------------------------------------------------------------
 
-
 XINDY RELEASE NOTES
 ===================
 
-
 Version   Date	      Remarks
+
+2.3	  2008-01-09  `Gour and Jörg Waited Too Long For It Release'.
+		      Source distribution with canonical install procedure.
+		      Includes UTF-8 and Omega support.
+		      Bug fixes in base modules and *.idx parsing.
 
 2.2 rc2	  2005-05-10  2nd release candidate for `LaTeX Companion Release'.
 		      Resolved issues:
