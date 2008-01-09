@@ -13,7 +13,7 @@
 (define-location-class "page-numbers" ("arabic-numbers"))
 (define-attributes ("default"))
 
-(markup-letter-group :open-head "~n  \textbf{" :close-head "}~n"
+(markup-letter-group :open-head "~n~n  \textbf{" :close-head "}~n"
                      :capitalize)
 
 (markup-indexentry :open "~n  \item "           :depth 0)
@@ -28,6 +28,9 @@
 ;======================================================================
 ;;
 ;; $Log$
+;; Revision 1.2  2008/01/09 15:13:54  jschrod
+;;     Add another newline in front of letter groups.
+;;
 ;; Revision 1.1  2006/08/05 15:58:11  jschrod
 ;;     Initial revision.
 ;;
