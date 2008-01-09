@@ -5,12 +5,17 @@
 ;;; latin lettergroups
 ;;;
 
+(markup-letter-group :open-head "~n  \lettergroupDefault{" :close-head "}"
+		     :group "default")
 (markup-letter-group :open-head "~n  \lettergroup{" :close-head "}")
 
 
 ;;======================================================================
 ;;
 ;; $Log$
+;; Revision 1.3  2008/01/09 15:13:29  jschrod
+;;     Configurable section headline for the Default letter group.
+;;
 ;; Revision 1.2  2006/11/07 01:16:50  jschrod
 ;;     Prevent page break after letter group heading.
 ;; Introduce a \lettergroup tag for that, which can be redefined
