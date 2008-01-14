@@ -6,9 +6,9 @@ creates tagged index for publication system. xindy merges, sorts, and
 outputs markup for raw index entries. It is highly configurable. It
 supports many languages.
 
-This is the source distribution of xindy release 2.3,
-aka the `Gour and Jörg Waited Too Long For It Release'q.
-Release notes are available in the file NEWS, in this distribution.
+This is the source distribution of xindy release 2.3.1,
+aka the `Gour and Jörg Waited Too Long For It Release'.
+Release notes are available in the file NEWS, in this directory.
 
 It is available from Sourceforge, see http://www.xindy.org/ for more
 information. This Web Site also contains the most up-to-date

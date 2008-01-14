@@ -6,6 +6,9 @@ XINDY RELEASE NOTES
 
 Version   Date	      Remarks
 
+2.3.1	  2008-01-14  Downgraded to CLISP 2.42; there are many reports
+		      of 2.43 compilation problems on AMD64 systems.
+
 2.3	  2008-01-09  `Gour and Jörg Waited Too Long For It Release'.
 		      Source distribution with canonical install procedure.
 		      Includes UTF-8 and Omega support.
