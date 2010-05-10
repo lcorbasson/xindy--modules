@@ -6,6 +6,16 @@ XINDY RELEASE NOTES
 
 Version   Date	      Remarks
 
+2.4       2010-05-11  `TUG30 Release'.
+		      Pure Lisp implementation, needs an installed CLISP.
+		      Easy compilation and installation, first official
+		      Mac OS X support.
+		      Bug fixes in user commands.
+		      xindy progress messages to stdout, not stderr.
+		      Changes from TeX-Live (TL2010), for better
+		      autoconf and draft Windows support. (Thanks to
+		      Peter Breitenlohner for that contribution.)
+
 2.3.1	  2008-01-14  Downgraded to CLISP 2.42; there are many reports
 		      of 2.43 compilation problems on AMD64 systems.
 
